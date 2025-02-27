@@ -1,0 +1,63 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+!config.json
+
+# Model files
+*.joblib
+*.pkl
+*.h5
+models/
+
+# Logs
+*.log
+mlops_pipeline.log
+
+# Output directories
+predictions/
+monitoring/
+
+# Environment variables
+.env
+.env.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Task 2 specific
+data/processed_feedback.csv
+embeddings/
+
+# Keep example configs
+!example_config.json
+
+# Python virtual environment
+.venv/
+

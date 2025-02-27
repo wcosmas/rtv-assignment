@@ -1,0 +1,23 @@
+# Required packages for RTV Feedback Analysis Chatbot
+
+# Core data processing
+pandas>=1.3.0
+numpy>=1.20.0
+
+# NLP and text processing
+nltk>=3.6.0
+scikit-learn>=1.0.0
+
+# Vector search
+faiss-cpu>=1.7.0  # Use faiss-gpu if GPU is available
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Web interface
+streamlit>=1.10.0
+
+# LLM integration (optional)
+google-generativeai>=0.1.0  # For Gemini integration
+# openai>=0.27.0  # Uncomment for OpenAI integration 
