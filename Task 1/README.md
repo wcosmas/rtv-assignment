@@ -137,7 +137,3 @@ If you encounter issues:
 2. Ensure all required directories exist
 3. Verify the data file format matches the expected schema
 4. Check that the model path points to a valid model file
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
