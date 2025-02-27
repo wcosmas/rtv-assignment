@@ -20,7 +20,7 @@ FAISS_INDEX_PATH = os.path.join(EMBEDDINGS_DIR, 'feedback_index.faiss')
 METADATA_PATH = os.path.join(EMBEDDINGS_DIR, 'feedback_metadata.json')
 
 # API Settings
-GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyD9AI81Jfkkun70HSYyx-b8jOoaAyGkIVY')  # Replace with your actual key
+GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'your_api_key')  # Replace with your actual key
 
 # Program codes
 PROGRAM_CODES = {
